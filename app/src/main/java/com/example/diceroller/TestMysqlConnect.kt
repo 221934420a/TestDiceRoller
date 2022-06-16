@@ -9,12 +9,12 @@ class TestMysqlConnect {
 fun main() {
 
 
-    val jdbcUrl = "jdbc:mysql://direct.bap5.cc:3326/TestAndroidStudio"
+    val jdbcUrl = "jdbc:mysql://<sql url>/TestAndroidStudio"
     //val jdbcUrl = "jdbc:mysql://http://192.168.0.11:3306/testandroidstudio"
 
     // get the connection
     //Class.forName("com.mysql.jdbc.Driver")
-    val connection = DriverManager.getConnection(jdbcUrl, "root", "C20Q3dcaADdc!wS")
+    val connection = DriverManager.getConnection(jdbcUrl, "root", "")
     //val connection = DriverManager.getConnection(jdbcUrl, "root", "221934420a")
 
     // prints true if the connection is valid
