@@ -9,7 +9,7 @@ class TestMysqlConnect {
 fun main() {
 
 
-    val jdbcUrl = "jdbc:mysql://sql.bap5.cc:3326/TestAndroidStudio"
+    val jdbcUrl = "jdbc:mysql://direct.bap5.cc:3326/TestAndroidStudio"
     //val jdbcUrl = "jdbc:mysql://http://192.168.0.11:3306/testandroidstudio"
 
     // get the connection
