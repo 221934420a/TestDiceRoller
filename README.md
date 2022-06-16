@@ -1,3 +1,3 @@
 # TestDiceRoller
 
-## change mysql dependency 111/06/16
+## 111/06/16 - change mysql dependency 
